@@ -218,7 +218,7 @@ async function swipeGame(token) {
 
 // اجرای ربات
 bot.launch().then(() => {
-    console.log('ربات در حال اجرا است...');
+    console.log('Bot is running.');
 }).catch(err => {
-    console.error('خطا در راه‌اندازی ربات:', err);
+    console.error('Error:', err);
 });
